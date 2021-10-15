@@ -24,7 +24,7 @@ def info():
 
             # 文件名拼接
             read_file = './json/' + file + ".json"
-            save_file = './菜价表/' + file + ".xlsx"
+            save_file = './prices_excel/' + file + ".xlsx"
 
             # 读取json文件
             with open(read_file, 'r' ,encoding='utf-8') as f:

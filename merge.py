@@ -40,5 +40,5 @@ def merge():
         ws2.row_dimensions[1].height=25
 
     del wb2['Sheet']
-    wb2.save('./菜价表/每日菜价/'+ today + '线上平台菜价.xlsx')
+    wb2.save('./prices_excel/daily_price/'+ today + '线上平台菜价.xlsx')
     print("完成！")
